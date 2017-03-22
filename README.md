@@ -18,7 +18,7 @@ nvm install 6.10.1 // for latest stable version nvm install stable
 
 ### Setup
 
-```shell
+```bash
 // MySQL server install
 wget https://dev.mysql.com/get/mysql-apt-config_0.8.3-1_all.deb
 
