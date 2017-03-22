@@ -61,7 +61,19 @@ CREATE DATABASE `mean-dev`;
 ```shell
 npm install
 
-grunt
+grunt //if no angular libraries run bower install
+```
+
+If using 512mb Droplet
+```shell
+sudo fallocate -l 4G /swapfile
+
+sudo chmod 600 /swapfile
+
+sudo mkswap /swapfile
+
+sudo swapon /swapfile
+
 ```
 
 Vois kokeilla myös MEAN.io:sta versio josta Mongoose vaihettu Sequalizeen: [mean-stack-relational](https://github.com/jpotts18/mean-stack-relational)
