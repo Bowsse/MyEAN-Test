@@ -37,11 +37,13 @@ sudo apt-get install ruby-full
 
 npm install -g bower
 
-npm install -g grunt
+npm install -g grunt --save-dev
 
 gem install sass
 
-npm install -g grunt-cli
+npm install -g grunt-cli --save-dev
+
+npm install express --save
 ```
 
 ```shell
@@ -57,6 +59,8 @@ CREATE DATABASE `mean-dev`;
 
 
 ```shell
+npm install
+
 grunt
 ```
 
