@@ -59,3 +59,5 @@ CREATE DATABASE `mean-dev`;
 ```shell
 grunt
 ```
+
+Mean.io:sta versio josta Mongoose vaihettu Sequalizeen: [mean-stack-relational](https://github.com/jpotts18/mean-stack-relational)
